@@ -6,14 +6,10 @@ def getRandomNumber():
 def giveHint(number, guess):
     if guess > (number + 10) or guess < (number - 10):
         return "Cold"
-        print("guess again")
-
     elif number == guess:
         return "Right"
     else:
         return "Hot"
-        print("guess again")
-
 def runGuess():
     secretNumber = getRandomNumber()
     
