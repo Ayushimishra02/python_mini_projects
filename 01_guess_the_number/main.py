@@ -1,5 +1,4 @@
 import random
-
 def getRandomNumber():
     return random.randrange(1, 100)
 
